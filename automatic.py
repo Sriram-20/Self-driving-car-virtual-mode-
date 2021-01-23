@@ -47,7 +47,7 @@ while drive:
         cam_x_offset = 0
         car = pygame.transform.rotate(car, 90)
     
-    #drive
+    #for drive
     if direction == 'up' and up_px == 255:
         car_y = car_y - 2
     elif direction == 'right' and right_px == 255:
